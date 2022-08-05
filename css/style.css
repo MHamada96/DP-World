@@ -1,10 +1,121 @@
 /* start general style */
+:root {
+  --light-gray-f9: #f9f9f9;
+  --lighGray: {
+    background-color: var(--light-gray-f9);
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 .container {
-  max-width: 80%;
+  max-width: 95%;
   margin: auto;
 }
+.noMargin {
+  margin: 0;
+}
+html {
+  background-image: url(../assets/images/sea-lg.jpg);
+}
+body {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 /* end general style */
+
+/* start top nav  */
+#topNav {
+  width: 100%;
+  height: 100px;
+  background-color: var(--light-gray-f9);
+  border-radius: 0px 0px 30px 30px;
+  position: fixed;
+}
+
+#topNav .nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: rajdhani;
+}
+#topNav .nav img {
+  width: 124px;
+  height: 92px;
+}
+#topNav .nav .navItems {
+  height: 100px;
+  width: 100%;
+  border-left: solid 1px #1e1450;
+}
+#topNav .nav .navItems .navContainer {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#topNav .nav .navItems .navContainer .underLine {
+  border: none;
+  width: 100%;
+  height: 3px;
+  background: transparent
+    linear-gradient(90deg, #ffffff 0%, #bcbecc9e 25%, #222856 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+#topNav .nav .navItems .navContainer .icons {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#topNav .nav .navItems .navContainer .icons a {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  margin-right: 20px;
+}
+#topNav .nav .navItems .navContainer .icons img {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+#topNav .nav .navItems .navContainer .icons .iconNotification {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: white;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  top: -65px;
+  right: -15px;
+  background: transparent
+    linear-gradient(340deg, #dd1e42 0%, #dd1e42 0%, #ff4992 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 8px #22222233;
+  border: 2px solid #fafdff;
+}
+#topNav .nav .navItems .navContainer .icons .avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url("../assets/images/person.jpeg");
+  background-size: contain;
+  margin: 0px;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #1e1450;
+}
+#topNav .nav .navItems .navContainer .icons .noMargin {
+  margin: 0;
+}
+/* end top nav  */
