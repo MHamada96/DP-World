@@ -47,6 +47,9 @@ body {
   width: 124px;
   height: 92px;
 }
+#topNav .nav #brand {
+  width: 15%;
+}
 #topNav .nav .navItems {
   height: 100px;
   width: 100%;
@@ -119,3 +122,70 @@ body {
   margin: 0;
 }
 /* end top nav  */
+
+/* Start Side Nav Bar  */
+.sideBar {
+  width: 15%;
+  min-height: 100vh;
+  background-color: #1e1450;
+}
+
+.sideBar .container {
+  max-width: 100%;
+  margin: 0px;
+  font-family: "Pilat Extended Demi";
+}
+.sideBar .container ul.navItems {
+  width: 100%;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sideBar .container ul.navItems li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.sideBar .container ul.navItems li.navItem a.sideLink {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+.sideBar .container ul.navItems li.navItem a.sideLink img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sideBar .container ul.navItems li.navItem a {
+  text-decoration: none;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+.sideBar .container ul.navItems li.navItem a.leftArrow {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+  background-color: inherit;
+  display: none;
+}
+.sideBar .container ul.navItems li.selected a {
+  background-color: #0e9877;
+}
+.sideBar .container ul.navItems li.selected > a.leftArrow {
+  display: block;
+}
+
+/* End Side Nav Bar  */
