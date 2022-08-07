@@ -454,20 +454,15 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5%;
   border-radius: 0.3125rem;
   transition: all 0.5s ease-in-out;
+  padding-right: 20px;
 }
 .lowerSection .left .card .box .icon {
-  padding-top: 0.25rem;
-  padding-left: 0.625rem;
 }
 .lowerSection .left .card .box .icon img {
-  width: 1.875rem;
-  height: 1.875rem;
-  position: relative;
-  top: 0.3125rem;
-  right: 0.3125rem;
+  width: 40px;
+  height: 50px;
 }
 .lowerSection .left .card .box .content {
   padding-top: 0.3125rem;
