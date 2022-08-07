@@ -457,6 +457,7 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   border-radius: 0.3125rem;
   transition: all 0.5s ease-in-out;
   padding-right: 20px;
+  height: 15rem;
 }
 .lowerSection .left .card .box .icon {
 }
