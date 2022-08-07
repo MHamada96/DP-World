@@ -170,7 +170,7 @@ body {
 .sideBar .container ul.navItems li.navItem a.sideLink {
   width: 70%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: white;
   align-items: center;
   justify-content: flex-start;
@@ -182,6 +182,7 @@ body {
   letter-spacing: 0rem;
   color: #ffffff;
   opacity: 1;
+  text-align: center;
 }
 .sideBar .container ul.navItems li.navItem a.sideLink img {
   width: 3.875rem;
@@ -577,3 +578,29 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 }
 
 /* End dashHome */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sideBar .container ul.navItems li.navItem a.sideLink {
+    flex-direction: row;
+  }
+  .sideBar .container ul.navItems li.navItem a.sideLink p {
+    text-align: center;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
