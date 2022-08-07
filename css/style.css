@@ -251,9 +251,8 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 
 /* Start dashHome */
 .dashHome {
-  width: 85%;
-  margin-left: 15%;
-  padding-top: 6.5625rem;
+  width: 100%;
+  padding-top: 7rem;
   background-color: rgba(30, 20, 80, 0.6);
   opacity: 1;
   display: flex;
@@ -430,9 +429,8 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 
 .lowerSection {
   height: 65rem;
-  width: 80%;
-  margin-left: 18%;
-  margin-right: 2%;
+  width: 96%;
+  margin: auto;
   padding-top: 6.5625rem;
   display: flex;
   flex-direction: row;
