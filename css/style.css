@@ -37,14 +37,13 @@ body {
   height: 100vh;
 }
 /* end general style */
-
 /* start top nav  */
 #topNav {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   background: #f9f9f9 0% 0% no-repeat padding-box;
-  box-shadow: 0px 10px 15px #00000029;
-  border-radius: 0px 0px 30px 30px;
+  box-shadow: 0rem 0.625rem 0.9375rem #00000029;
+  border-radius: 0rem 0rem 1.875rem 1.875rem;
   position: fixed;
   opacity: 1;
   z-index: 10000;
@@ -52,23 +51,23 @@ body {
 
 #topNav .nav {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   font-family: rajdhani;
 }
 #topNav .nav img {
-  width: 124px;
-  height: 92px;
+  width: 7.75rem;
+  height: 5.75rem;
 }
 #topNav .nav #brand {
   width: 15%;
 }
 #topNav .nav .navItems {
-  height: 100px;
+  height: 6.25rem;
   width: 100%;
-  border-left: 1px solid rgba(30, 20, 80, 0.3);
+  border-left: 0.0625rem solid rgba(30, 20, 80, 0.3);
 }
 #topNav .nav .navItems .navContainer {
   width: 95%;
@@ -80,16 +79,16 @@ body {
   justify-content: space-between;
 }
 #topNav .nav .navItems .navContainer h1 {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 #topNav .nav .navItems .navContainer .underLine {
   border: none;
   width: 100%;
-  height: 3px;
+  height: 0.1875rem;
   background: transparent
     linear-gradient(90deg, #ffffff 0%, #bcbecc9e 25%, #222856 100%) 0% 0%
     no-repeat padding-box;
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 #topNav .nav .navItems .navContainer .icons {
   background-color: inherit;
@@ -104,17 +103,17 @@ body {
   margin-right: 1.25rem;
 }
 #topNav .nav .navItems .navContainer .icons img {
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
   position: relative;
 }
 #topNav .nav .navItems .navContainer .icons .iconNotification {
   display: inline-block;
-  width: 26px;
-  height: 26px;
+  width: 1.625rem;
+  height: 1.625rem;
   border-radius: 50%;
   color: white;
-  line-height: 26px;
+  line-height: 1.625rem;
   text-align: center;
   position: relative;
   top: -4.0625rem;
@@ -126,8 +125,8 @@ body {
   border: 0.125rem solid #fafdff;
 }
 #topNav .nav .navItems .navContainer .icons .avatar {
-  width: 65px;
-  height: 65px;
+  width: 4.0625rem;
+  height: 4.0625rem;
   border-radius: 50%;
   background-image: url("../assets/images/resources/user1.png");
   background-size: contain;
@@ -135,8 +134,8 @@ body {
   border: 0.0625rem solid #1e1450;
 }
 #topNav .nav .navItems .navContainer .icons .noMargin {
-  width: 65px;
-  height: 65px;
+  width: 4.0625rem;
+  height: 4.0625rem;
 }
 /* end top nav  */
 
@@ -178,15 +177,15 @@ body {
   padding: 0.375rem 0.625rem;
   border-radius: 0rem 0.625rem 0.625rem 0rem;
   font-family: "Pilat Light";
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  letter-spacing: 0rem;
   color: #ffffff;
   opacity: 1;
 }
 .sideBar .container ul.navItems li.navItem a.sideLink img {
-  width: 62px;
-  height: 47px;
+  width: 3.875rem;
+  height: 2.9375rem;
 }
 
 .sideBar .container ul.navItems li.navItem a {
@@ -196,8 +195,8 @@ body {
 }
 
 .sideBar .container ul.navItems li.navItem a.leftArrow {
-  width: 9px;
-  height: 16px;
+  width: 0.5625rem;
+  height: 1rem;
   padding-right: 0.3125rem;
   background-color: inherit;
   display: none;
@@ -242,12 +241,12 @@ body {
 }
 .sideBar .container ul.navItems .lang .container li a {
   font-size: 1rem;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 body > div.sideBar > div > ul > div > div > li > a.log > img {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 /* End Side Nav Bar  */
 
@@ -278,16 +277,16 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1.25rem;
+  padding-top: 2.25rem;
 
-  font: normal normal bold 26px/25px Cairo;
-  letter-spacing: 0px;
+  font: normal normal bold 1.625rem/1.5625rem Cairo;
+  letter-spacing: 0rem;
   color: #ffffff;
   opacity: 1;
 }
 .dashHome .head .title img {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 .dashHome .head hr {
   padding: 0;
@@ -311,13 +310,13 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   width: 20%;
 }
 .dashHome .head .best h3 {
-  margin-bottom: 10px;
-  font-size: 22px;
+  margin-bottom: 0.625rem;
+  font-size: 1.375rem;
   font-family: "Cairo";
 }
 .dashHome .head .best span {
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
   font-family: "Poppins-Medium";
 }
 .dashHome .head .best .list {
@@ -332,13 +331,13 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  height: 65px;
-  margin-bottom: 15px;
+  height: 4.0625rem;
+  margin-bottom: 0.9375rem;
   border-right: 0.1875rem solid #222856;
 }
 .dashHome .head .best .list .person img {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
 }
 .dashHome .head .best .list .person .personInfo {
   width: 65%;
@@ -389,7 +388,7 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 }
 
 .dashHome .carosal .card {
-  width: 407px;
+  width: 25.4375rem;
   padding: 0rem 0.625rem;
   display: flex;
   flex-direction: column;
@@ -399,8 +398,8 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 }
 .dashHome .carosal .leftArrow,
 .dashHome .carosal .rightArrow {
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -408,8 +407,8 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 }
 .dashHome .carosal .leftArrow img,
 .dashHome .carosal .rightArrow img {
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
 }
 .dashHome .carosal .rightArrow img {
   transform: rotate(180deg);
@@ -419,8 +418,8 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   border-radius: 0.625rem;
 }
 .dashHome .carosal .card p {
-  font: normal normal normal 22px/23px Cairo;
-  letter-spacing: 0px;
+  font: normal normal normal 1.375rem/1.4375rem Cairo;
+  letter-spacing: 0rem;
   color: #ffffff;
   padding: 0.3125rem;
   text-align: left;
@@ -516,10 +515,10 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 .lowerSection .left .card .smallBoxes .smBox {
   background-color: white;
   color: tomato;
-  border-radius: 3px;
-  width: 98px;
-  height: 98px;
-  margin: 10px;
+  border-radius: 0.1875rem;
+  width: 6.125rem;
+  height: 6.125rem;
+  margin: 0.625rem;
   text-align: center;
   line-height: inherit;
 }
@@ -532,19 +531,19 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
 }
 .lowerSection .right .content {
   width: 80%;
-  padding: 10px 0px;
+  padding: 0.625rem 0rem;
   margin: auto;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  box-shadow: 0px 4px 12px #a1abc633;
-  border-radius: 12px;
+  box-shadow: 0rem 0.25rem 0.75rem #a1abc633;
+  border-radius: 0.75rem;
 }
 .lowerSection .right .content .person {
   width: 90%;
-  height: 80px;
-  border-top: 1px dashed #e4e6ef;
+  height: 5rem;
+  border-top: 0.0625rem dashed #e4e6ef;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -552,29 +551,29 @@ body > div.sideBar > div > ul > div > div > li > a.log > img {
   justify-content: space-between;
 }
 .lowerSection .right .content .person img {
-  width: 57px;
-  height: 57px;
+  width: 3.5625rem;
+  height: 3.5625rem;
 }
 .lowerSection .right .content .person h3 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #181c32;
 }
 .lowerSection .right .content .person h5 {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #a1a5b7;
 }
 .lowerSection .right .content .person h6 {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #a1a5b7;
 }
 .lowerSection .right .content .head {
   width: 90%;
-  height: 50px;
+  height: 3.125rem;
   margin: auto;
 }
 .lowerSection .right .content .head h2 {
   color: #181c32;
-  line-height: 50px;
+  line-height: 3.125rem;
 }
 
 /* End dashHome */
